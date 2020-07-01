@@ -1,0 +1,126 @@
+<!-- created by LACROIX Baptiste -->
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Etudes et Ecoles</title>
+    <meta name="author" content="Baptiste Lacroix">
+    <link href='../styles/style.css' rel="stylesheet" />
+</head>
+
+<body id="monpara">
+    <header>
+        <div id="bandeau-top" class="bandeau">
+            <div id="entete">
+                <div id="logo-div">
+                    <a href="../index.html">
+                        <img id="logo" src="../img/logo.png" alt="logo">
+                    </a>
+                </div>
+                <div id="titre-div">
+                    <h1> La Sécurité Informatique </h1>
+                </div>
+            </div>
+            <div id="menu">
+                <ul>
+                    <li> <a href="../index.html">Accueil</a>
+                        <ul>
+                            <li> <a href="../pagesFrancais/information.html">Comment se protéger</a> </li>
+                        </ul>
+                    </li>
+
+                    <li> <a href="#">Apprendre la CyberSecurité</a>
+                        <ul>
+                            <li> <a href="../pagesFrancais/apprendre.html">Les Etudes et Ecoles.</a> </li>
+                        </ul>
+                    </li>
+                    <li> <a href="#">A Propos</a>
+                        <ul>
+                            <li> <a href="../pagesFrancais/apropos.html">L'Auteur</a> </li>
+                        </ul>
+                    </li>
+
+                    <li> <a href="#">Support</a>
+                        <ul>
+                            <li> <a href="../pagesFrancais/page_formulaire.html">Notez mon site</a> </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div id="menuLangue">
+                <ul>
+                    <li> <a href="#">Choisissez votre language</a>
+                        <ul>
+                            <li><a href="../index.html" onclick="changementLangue(Langue)">Français</a><img src="../img/drapeauFrancais.png" alt="Drapeau Français" /></li>
+                            <li><a href="../pagesAnglais/indexAnglais.html" onclick="changementLangue(Langue)">Anglais</a><img src="../img/drapeauAnglais.png" alt="Drapeau Anglais" /></li>
+                            <li><a href="../pagesItalien/indexItalien.html" onclick="changementLangue(Langue)">Italien</a><img src="../img/drapeauItalien.png" alt="Drapeau Italien" /></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div id="content">
+        <h1>Les écoles qui proposent une spécialisation en cybersécurité</h1>
+        <p class="paragraphe-contenu">
+            Un site vous permettant de mieux vous renseigner <a href="http://www.onisep.fr/Pres-de-chez-vous/Hauts-de-France/Lille/Informations-metiers/Decouvrir-les-secteurs-professionnels/La-cybersecurite" target="_blank"> Onisep </a>
+        </p>
+        <img src="../img/image7.jpg" alt="Université">
+        <h2> > les écoles d'ingénieurs post-bac</h2>
+        <h3>Voici les principales écoles d'ingénieurs post-bac qui vous permettront de vous spécialiser dans les filières de la cybersécurité et la cyberdéfense: </h3>
+        <ul class="paragraphe-contenu">
+            <li><a href="https://www.3il-ingenieurs.fr/" target="_blank"> 3iL</a> ,</li>
+            <li><a href="http://www.esiea.fr/" target="_blank"> l'ESIEA</a>,</li>
+            <li><a href="https://www.utt.fr/" target="_blank"> l'UTT</a> (spécialité systèmes, réseaux et télécommunications),</li>
+            <li><a href="https://www.epita.fr/" target="_blank"> l'EPITA</a> (délivre un titre d'expert en ingénierie informatique en apprentissage),</li>
+            <li><a href="https://eisti.fr/" target="_blank"> l'EISTI</a> (spécialité génie informatique),</li>
+            <li><a href="https://www.polytech-grenoble.fr/" target="_blank"> Polytech Grenoble</a> (spécialité réseaux informatiques et communication multimédia),</li>
+        </ul>
+        <br>
+        <h2> > les écoles d'Ingénieurs post-prépa ou post-bac +2 </h2>
+        <h3>Après une prépa scientifique ou après un BTS SIO voici les principales écoles d'ingénieurs post-prépa et les écoles d'ingénieurs en admissions parallèles qui vous permettront de vous former aux métiers d'expert en sécurité informatique :</h3>
+        <ul class="paragraphe-contenu">
+            <li><a href="http://www-ensibs.univ-ubs.fr/" target="_blank"> l'ENSIBS</a>, qui a ouvert une nouvelle spécialité « cyberdéfense » depuis la rentrée 2013.</li>
+            <li><a href="https://www.ensta-paristech.fr/" target="_blank"> l'ENSTA ParisTech</a>,</li>
+            <li><a href="https://www.telecom-sudparis.eu/" target="_blank"> Telecom SudParis</a>,</li>
+            <li><a href="http://www.epsi.fr/" target="_blank"> l’EPSI</a>,</li>
+            <li>l'ENSI Bourges (spécialité sécurité et technologies informatiques)</li>
+            <li><a href="https://www.ensicaen.fr/" target="_blank"> l'ENSICAEN</a> (spécialité informatique),</li>
+        </ul>
+        <br>
+        <div id="contentVideo">
+            <iframe width="700" height="400" src="https://www.youtube.com/embed/PgtNs7Uhi10" allowfullscreen>
+            </iframe>
+        </div>
+
+        <br>
+        <h3> > les IUT Informatiques coté CyberSecurité</h3>
+        <ul class="paragraphe-contenu">
+            <li><a href="http://unice.fr/iut/presentation/accueil" target="_blank"> Institut Universitaire de Technologie de Provence Sud </a> , Spécialité R&T </li>
+            <li><a href="http://esisar.grenoble-inp.fr/fr/l-ecole/cybersecurite" target="_blank"> Grenoble INP</a></li>
+        </ul>
+        <br>
+        <button onclick="fonction_noir()" type="button"> Noir</button>
+        <button onclick="fonction_blanc()" type="button"> Blanc</button>
+        <script src="../script/script.js">
+        </script>
+    </div>
+    <footer>
+        <div id='footer-div-gauche'>
+            <br>
+            <p><a href="../index.html">Accueil</a></p>
+            <p><a href='../pagesFrancais/information.html'>Comment se protéger</a></p>
+            <p><a href='../pagesFrancais/apprendre.html'>Les Etudes et Ecoles</a></p>
+            <p><a href='../pagesFrancais/apropos.html'>L'Auteur</a></p>
+            <p><a href='../pagesFrancais/page_formulaire.html'>Notez mon site</a></p>
+        </div>
+        <div id='footer-div-droit'>
+            <p>Propriétaire du site :<br> LACROIX Baptiste</p>
+            <p>Adresse mail perso : <a href="mailto:baptiste.lacroix03@gmail.com">baptiste.lacroix03@gmail.com</a><br></p>
+        </div>
+    </footer>
+</body>
+
+</html>

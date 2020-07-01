@@ -1,0 +1,105 @@
+<!-- created by LACROIX Baptiste -->
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Etudes et Ecoles</title>
+    <meta name="author" content="Baptiste Lacroix">
+    <link href='styles/style.css' rel="stylesheet" />
+</head>
+
+<body id="monpara">
+    <header>
+        <div id="bandeau-top" class="bandeau">
+            <div id="entete">
+                <div id="logo-div">
+                    <a href="index.html">
+                        <img id="logo" src="img/logo.png" alt="logo">
+                    </a>
+                </div>
+                <div id="titre-div">
+                    <h1> La Sécurité Informatique </h1>
+                </div>
+            </div>
+            <div id="menu">
+                <ul>
+                    <li> <a href="index.html">Accueil</a>
+                        <ul>
+                            <li> <a href="pagesFrancais/information.html">Comment se protéger</a> </li>
+                        </ul>
+                    </li>
+
+                    <li> <a href="#">Apprendre la CyberSecurité</a>
+                        <ul>
+                            <li> <a href="pagesFrancais/apprendre.html">Les Etudes et Ecoles.</a> </li>
+                        </ul>
+                    </li>
+                    <li> <a href="#">A Propos</a>
+                        <ul>
+                            <li> <a href="pagesFrancais/apropos.html">L'Auteur</a> </li>
+                        </ul>
+                    </li>
+
+                    <li> <a href="#">Support</a>
+                        <ul>
+                            <li> <a href="pagesFrancais/page_formulaire.html">Notez mon site</a> </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div id="menuLangue">
+                <ul>
+                    <li> <a href="#">Choisissez votre language</a>
+                        <ul>
+                            <li><a href="index.html" onclick="changementLangue(Langue)">Français</a><img src="img/drapeauFrancais.png" alt="Drapeau Français" /></li>
+                            <li><a href="pagesAnglais/indexAnglais.html" onclick="changementLangue(Langue)">Anglais</a><img src="img/drapeauAnglais.png" alt="Drapeau Anglais" /></li>
+                            <li><a href="pagesItalien/indexItalien.html" onclick="changementLangue(Langue)">Italien</a><img src="img/drapeauItalien.png" alt="Drapeau Italien" /></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div id="content">
+        <h1>La CyberSécurité</h1>
+        <div id="contentVideo">
+            <iframe width="700" height="400" src="https://www.youtube.com/embed/83IvsrYklsk" allowfullscreen>
+            </iframe>
+        </div>
+        <p class="paragraphe-contenu">La cybercriminalité est une menace qui ne dort jamais.</p>
+        <p class="paragraphe-contenu">Vous pensez peut-être que le vol de vos données financières est la seule forme de cybercriminalité que vous devez craindre. Maisce n'est pas si simple. Il existe d'autres dangers que ceux qui pèsent sur vos finances. La cybercriminalité évolue en permanence et fait naître de nouvelles menaces.</p>
+        <p class="paragraphe-contenu">Lorsque vous entendez parler des crimes en ligne, vous êtes peut-être tenté de ne plus utiliser Internet du tout. Cette réaction serait toutefois un peu radicale.
+            À la place, pour protéger votre vie privée et vos données, vous pouvez commencer par apprendre à reconnaître les cybermenaces. Prendre des précautions simples et savoir qui contacter lorsque vous voyez des personnes se livrer à des activités criminelles en ligne sont également des habitudes importantes à adopter.
+            Vous voulez peut-être apprendre à prévenir les cybermenaces, mais voilà : c'est impossible. Vous pouvez toutefois <a href="pages/information.html">prendre des précautions</a> pour vous en protéger.</p>
+        <a class="image-centre"><img src="img/image3.jpg" alt="image sécurité informatique"></a>
+        <h2>la CyberCriminalité ?</h2>
+        <p class="paragraphe-contenu">Espionnage, vol de données sensibles chiffrées, fraude, sabotage, malveillance... Les motifs des cyberattaques et piratages sont de plus en plus nombreux et leurs cibles le sont tout autant. Les États visés depuis l'étranger comme les entreprises peuvent être attaqués de différentes manières, de la simple saturation du réseau informatique par déni de service (DDoS) aux logiciels espions évolués, en passant par le défacement d'un site piraté par des hackers.</p>
+        <p class="paragraphe-contenu">La cybercriminalité englobe tous les crimes qui sont commis en ligne ou principalement en ligne. Les cybercriminels commettent souvent des crimes en ciblant des réseaux ou des appareils informatiques. La cybercriminalité regroupe plusieurs types d'actes malveillants allant de l'exploitation d'une faille de sécurité à l'usurpation de données personnelles</p>
+        <h2> Mais la CyberSécurité c'est quoi alors ? </h2>
+        <p class="paragraphe-contenu">La cybersécurité est un domaine qui rassemble des lois, des politiques, des dispositifs, des concepts et des mécanismes de sécurité, appliqués au monde numérique et utilisés pour la protection des personnes et du matériel informatique des Etats et des organisations.
+            La cybersécurité, domaine, toujours en pleine croissance, est très relié au processus de contrôle et de communication entre les personnes et les machines.</p>
+        <a class="image-centre"><img class="image-centre" src="img/image2.jpg" alt="Pirate Informatique"></a>
+        <br>
+        <button onclick="fonction_noir()" type="button"> Noir</button>
+        <button onclick="fonction_blanc()" type="button"> Blanc</button>
+        <script src="script/script.js">
+        </script>
+    </div>
+    <footer>
+        <div id='footer-div-gauche'>
+            <br>
+            <p><a href='index.html'>Accueil</a></p>
+            <p><a href='pagesFrancais/information.html'>Comment se protéger</a></p>
+            <p><a href='pagesFrancais/apprendre.html'>Les Etudes et Ecoles</a></p>
+            <p><a href='pagesFrancais/apropos.html'>L'Auteur</a></p>
+            <p><a href='pagesFrancais/page_formulaire.html'>Notez mon site</a></p>
+        </div>
+        <div id='footer-div-droit'>
+            <p>Propriétaire du site :<br> LACROIX Baptiste</p>
+            <p>Adresse mail perso : <a href="mailto:baptiste.lacroix03@gmail.com">baptiste.lacroix03@gmail.com</a><br></p>
+        </div>
+    </footer>
+</body>
+
+</html>

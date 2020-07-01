@@ -1,0 +1,132 @@
+<!-- created by LACROIX Baptiste -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Accueil</title>
+    <meta name="author" content="Baptiste Lacroix">
+    <link href='../styles/style.css' rel="stylesheet" />
+</head>
+<body id="monpara">
+    <header>
+        <div id="bandeau-top" class="bandeau">
+            <div id="entete">
+                <div id="logo-div">
+                    <a href="../pagesAnglais/indexAnglais.html">
+                        <img id="logo" src="../img/logo.png" alt="logo">
+                    </a>
+                </div>
+                <div id="titre-div">
+                    <h1> IT Security </h1>
+                </div>
+            </div>
+            <div id="menu">
+                <ul>
+                    <li> <a href="../pagesAnglais/indexAnglais.html">Home</a>
+                        <ul>
+                            <li> <a href="../pagesAnglais/informationAnglais.html">How to protect yourself</a> </li>
+                        </ul>
+                    </li>
+
+                    <li> <a href="#">Learn CyberSecurity</a>
+                        <ul>
+                            <li> <a href="../pagesAnglais/apprendreAnglais.html">Studies and Schools.</a> </li>
+                        </ul>
+                    </li>
+                    <li> <a href="#">About</a>
+                        <ul>
+                            <li> <a href="../pagesAnglais/aproposAnglais.html">The Author</a> </li>
+                        </ul>
+                    </li>
+
+                    <li> <a href="#">Support</a>
+                        <ul>
+                            <li> <a href="../pagesAnglais/page_formulaireAnglais.html">Rate my site</a> </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div id="menuLangue">
+                <ul>
+                    <li> <a href="#">Choisissez votre language</a>
+                        <ul>
+                            <li><a href="../index.html">Français</a><img src="../img/drapeauFrancais.png" alt="Drapeau Français"/></li>
+                            <li><a href="../pagesAnglais/indexAnglais.html">Anglais</a><img src="../img/drapeauAnglais.png" alt="Drapeau Anglais"/></li>
+                            <li><a href="../pagesItalien/indexItalien.html" onclick="changementLangue(Langue)">Italien</a><img src="../img/drapeauItalien.png" alt="Drapeau Italien" /></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div id="content">
+        <h2>information</h2>
+        <p>Thank you for visiting this site. If he interested you do not hesitate to leave me a little comment! that will make me very happy.</p>
+        <form action="#" method="get" class="form">
+            <div class="form">
+                <label for="nom">Enter your Name:</label>
+                <input type="text" name="nom_utilisateur" id="nom" required>
+            </div>
+            <div class="form">
+                <label for="prenom">Enter your first name: </label>
+                <input type="text" name="nom_utilisateur" id="prenom" required>
+            </div>
+
+            <div class="form">
+                <label for="email">Enter your e-mail: </label>
+                <input type="email" name="nom_utilisateur" id="email" required>
+            </div>
+            <hr />
+            <div class="form">
+                <label for="contenu_commentaire">If you have any questions or ideas to improve the site, don't hesitate!</label>
+                <textarea rows="15" cols="90" name="commentaire_area" id="contenu_commentaire" required></textarea>
+                <br>
+            </div>
+            <br>
+            <hr />
+            <fieldset class="rating">
+                <legend>Rate my site:</legend>
+                <input type="radio" id="star5" name="rating" value="5" required />
+                <label for="star5">5 stars</label>
+                <input type="radio" id="star4" name="rating" value="4" />
+                <label for="star4">4 stars</label>
+                <input type="radio" id="star3" name="rating" value="3" />
+                <label for="star3">3 stars</label>
+                <input type="radio" id="star2" name="rating" value="2" />
+                <label for="star2">2 stars</label>
+                <input type="radio" id="star1" name="rating" value="1" />
+                <label for="star1">1 stars</label>
+            </fieldset>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <input type="submit" value="Send me your comment!">
+        </form>
+        <br>
+        <button onclick="fonction_noir()" type="button"> Black</button>
+        <button onclick="fonction_blanc()" type="button"> White</button>
+        <script src="../script/script.js">
+        </script>
+    </div>
+    <br>
+    <footer>
+        <div id='footer-div-gauche'>
+            <br>
+            <p><a href='../pagesAnglais/indexAnglais.html'>Home</a></p>
+            <p><a href='../pagesAnglais/informationAnglais.html'>How to protect yourself</a></p>
+            <p><a href='../pagesAnglais/apprendreAnglais.html'>Studies and Schools.</a></p>
+            <p><a href='../pagesAnglais/aproposAnglais.html'>The Autor</a></p>
+            <p><a href='../pagesAnglais/page_formulaireAnglais.html'>Rate my site</a></p>
+        </div>
+        <div id='footer-div-droit'>
+            <p>Site owner :<br> LACROIX Baptiste</p>
+            <p>Personal email address : <a href="mailto:baptiste.lacroix03@gmail.com">baptiste.lacroix03@gmail.com</a><br></p>
+        </div>
+    </footer>
+</body>
+
+</html>

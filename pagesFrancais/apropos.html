@@ -1,0 +1,101 @@
+<!-- created by LACROIX Baptiste -->
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Etudes et Ecoles</title>
+    <meta name="author" content="Baptiste Lacroix">
+    <link href='../styles/style.css' rel="stylesheet" />
+</head>
+
+<body id="monpara">
+    <header>
+        <div id="bandeau-top" class="bandeau">
+            <div id="entete">
+                <div id="logo-div">
+                    <a href="../index.html">
+                        <img id="logo" src="../img/logo.png" alt="logo">
+                    </a>
+                </div>
+                <div id="titre-div">
+                    <h1> La Sécurité Informatique </h1>
+                </div>
+            </div>
+            <div id="menu">
+                <ul>
+                    <li> <a href="../index.html">Accueil</a>
+                        <ul>
+                            <li> <a href="../pagesFrancais/information.html">Comment se protéger</a> </li>
+                        </ul>
+                    </li>
+
+                    <li> <a href="#">Apprendre la CyberSecurité</a>
+                        <ul>
+                            <li> <a href="../pagesFrancais/apprendre.html">Les Etudes et Ecoles.</a> </li>
+                        </ul>
+                    </li>
+                    <li> <a href="#">A Propos</a>
+                        <ul>
+                            <li> <a href="../pagesFrancais/apropos.html">L'Auteur</a> </li>
+                        </ul>
+                    </li>
+
+                    <li> <a href="#">Support</a>
+                        <ul>
+                            <li> <a href="../pagesFrancais/page_formulaire.html">Notez mon site</a> </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div id="menuLangue">
+                <ul>
+                    <li> <a href="#">Choisissez votre language</a>
+                        <ul>
+                            <li><a href="../index.html" onclick="changementLangue(Langue)">Français</a><img src="../img/drapeauFrancais.png" alt="Drapeau Français" /></li>
+                            <li><a href="../pagesAnglais/indexAnglais.html" onclick="changementLangue(Langue)">Anglais</a><img src="../img/drapeauAnglais.png" alt="Drapeau Anglais" /></li>
+                            <li><a href="../pagesItalien/indexItalien.html" onclick="changementLangue(Langue)">Italien</a><img src="../img/drapeauItalien.png" alt="Drapeau Italien" /></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div id="content">
+        <h2> Qui suis-je ?</h2>
+        <br>
+        <br>
+        <img src="../img/image5.jpg" alt="Setup PC">
+        <br>
+        <br>
+        <h2> Ma Présentation </h2>
+        <p class="paragraphe-contenu">> Je suis un élève de 1ere en NSI, du <a href="https://www.google.fr/maps/place/Lyc%C3%A9e+Auguste+Renoir/@43.6702911,7.1487155,17z/data=!3m1!4b1!4m5!3m4!1s0x12cdd3bbbed3313f:0x9abfb57b794865e9!8m2!3d43.6702911!4d7.1509042" target="-blank"> lycée Auguste Renoir, de Cagnes Sur Mer,</a> en France. Je m'appelle LACROIX Baptiste. J'ai créé ce site en fin d'année 2019 et début 2020. Mon Projet est de créer un site internet sur un sujet passionant la CyberSécurité.</p>
+        <br>
+        <h2> Comment a-t-il été fait </h2>
+        <p class="paragraphe-contenu">> J'ai créé ce site avec mes connaissances déjà acquisent et les cours de mon professeur. Ce site est fait surtout sur la base du HTML et du CSS je n'ai presque pas utilisé le JavaScript (j'avais une connaissance très basique du JavaScript)</p>
+        <p class="paragraphe-contenu">Pour faire ce site je me suis aidé de quelques sites tel que : <a href="https://www.w3schools.com/" target="-blank">w3schools</a> et <a href="https://openclassrooms.com/fr/" target="-blank">OpenClasroom</a></p>
+        <p class="paragraphe-contenu"> Mon Site internet a été vérifier par le site <a href="https://validator.w3.org/" target="-blank">W3C</a> (World Wide Web Consortium)</p>
+        <button onclick="fonction_noir()" type="button"> Noir</button>
+        <button onclick="fonction_blanc()" type="button"> Blanc</button>
+        <script src="../script/script.js">
+        </script>
+    </div>
+    <br>
+    <footer>
+        <div id='footer-div-gauche'>
+            <br>
+            <p><a href="../index.html">Accueil</a></p>
+            <p><a href='../pagesFrancais/information.html'>Comment se protéger</a></p>
+            <p><a href='../pagesFrancais/apprendre.html'>Les Etudes et Ecoles</a></p>
+            <p><a href='../pagesFrancais/apropos.html'>L'Auteur</a></p>
+            <p><a href='../pagesFrancais/page_formulaire.html'>Notez mon site</a></p>
+        </div>
+        <div id='footer-div-droit'>
+            <p>Propriétaire du site :<br> LACROIX Baptiste</p>
+            <p>Adresse mail perso : <a href="mailto:baptiste.lacroix03@gmail.com">baptiste.lacroix03@gmail.com</a><br></p>
+        </div>
+    </footer>
+</body>
+
+</html>
