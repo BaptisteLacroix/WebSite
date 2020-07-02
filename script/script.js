@@ -1,4 +1,4 @@
-/* created by LACROIX Baptiste and COUSSON Antoine */
+/* created by LACROIX Baptiste */
 
 function fonction_noir() {
     document.getElementById("monpara").style.backgroundColor = "grey";
@@ -11,6 +11,26 @@ function fonction_blanc() {
     document.getElementById("monpara").style.color = "white";
     alert("Vous venez d'activer le mode clair du site ! Attention le mode clair ne reste que sur cette page !");
 }
+
+
+
+/*
+
+<div id="google_translate_element"></div>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+}
+</script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<p>You can translate the content of this page by selecting a language in the select box.</p>
+
+*/
+
+
 
 /*
 
@@ -34,26 +54,6 @@ function fonction_note() {
 }
 */
 
-
-/*
-function changementLangue(Langue) {
-    var message = "";
-    if (langue == "Anglais") {
-        message = "You have changed the language to english.\nIm sorry if you find mistakes !\nPlease contact me throught the contact page."
-    }
-    if (langue == "Français") {
-        message = "Vous venez de changer la langue du site en Français.\nBonne visite !"
-    }
-    alert(message);
-}
-
-if ((formulaire.natureContrat[0].checked) || (formulaire.natureContrat[1].checked) || (formulaire.natureContrat[2].checked)) {
-    document.getElementById('labelNature').style.color = 'black';
-} else {
-    document.getElementById('labelNature').style.color = 'red';
-    erreur = erreur + 1;
-}
-*/
 
 /*
 google.load("language", "1");
