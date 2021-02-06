@@ -10,10 +10,12 @@ body {
 img {
     max-width: 50%;
     height: auto;
+    
 }
 
 a.image-centre {
     text-align: center;
+    align-content: center;
 }
 
 #logo {
@@ -197,6 +199,12 @@ a.image-centre {
     padding: 1em;
 }
 
+div#contentVideo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 
 /* Pied de Page */
@@ -261,29 +269,6 @@ textarea {
     opacity: 0;
     cursor: pointer;
 }
-
-/* Création d'un bouton personnalisé 
-.checkmark {
-    position: absolute;
-    top: 0;
-    left: 10;
-    height: 25px;
-    width: 25px;
-    background-color: #eee;
-    border-radius: 50%;
-}
-
-/* griser l'emplacement ou vas la souris 
-.container:hover input ~ .checkmark {
-    background-color: #ccc;
-}
-
-/* mettre une couleur quand le bouton est clické
-.container input:checked ~ .checkmark {
-    background-color: #000000;
-}
-
-*/
 
 .rating {
     float: left;
