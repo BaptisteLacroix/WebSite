@@ -1,4 +1,4 @@
-# Site-Web
+# Web Site
 #### Link
 
-Link to my Site Web : https://baptistelacroix.github.io/WebSite/
+Link to my Web Site : https://baptistelacroix.github.io/WebSite/
